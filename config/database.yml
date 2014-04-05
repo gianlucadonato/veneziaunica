@@ -15,6 +15,6 @@ test:
   encoding: utf8
 
 production:
-  adapter: mysql2
+  adapter: postgresql
   database: venezia_unica_prod
   encoding: utf8
