@@ -42,11 +42,13 @@
     </form>
     
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      <!-- Indicators 
+      <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#carousel-01" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-02" data-slide-to="1"></li>
+        <li data-target="#carousel-03" data-slide-to="2"></li>
       </ol>
-        -->
+
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
@@ -56,6 +58,21 @@
             <p>Sticazzi</p>
           </div>
         </div>
+        <div class="item">
+          <%= image_tag("01.jpg") %>
+          <div class="carousel-caption">
+            <h3>Yo</h3>
+            <p>Sticazzi</p>
+          </div>
+        </div>
+        <div class="item">
+          <%= image_tag("01.jpg") %>
+          <div class="carousel-caption">
+            <h3>yeah</h3>
+            <p>Sticazzi</p>
+          </div>
+        </div>
+      </div>
 
       <!-- Controls -->
       <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
