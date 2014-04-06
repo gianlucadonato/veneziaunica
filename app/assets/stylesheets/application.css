@@ -59,3 +59,37 @@ html, body {
 	color:#666; 
 	padding:0 45px; 
 }
+.alert-msg-modal {
+	position: absolute;
+	top: 51px;
+	left: 0;
+	width: 100%;
+	z-index: 99999;
+}
+.close-alert {
+	position: absolute !important;
+	right: 15px !important;
+	top: 5px !important;
+}
+.signup-form {
+	border: solid 1px #d8d8d8;
+	width: 100%;
+	line-height: 34px;
+	padding: 0 10px;
+	margin-bottom: 4px;
+}
+.modal-form {
+	margin: 0 auto;
+	width: 320px;
+}
+.form-submit {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	width: 100%;
+	line-height: 34px;
+	text-align: center;
+	color: #fff;
+	background: #454545;
+	text-transform: uppercase;
+	border: none;
+}

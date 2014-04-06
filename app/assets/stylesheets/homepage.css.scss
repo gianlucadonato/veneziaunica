@@ -102,3 +102,62 @@ input.keywords {
 	-moz-border-radius: 0 !important;
 	border-radius: 0 !important;
 }
+
+.modal-dialog {
+	z-index: 999;
+	margin-top: 150px;
+}
+.modal-backdrop {
+	z-index: 99;
+}
+.modal-content h4 {
+	background: #da182a;
+	font-size: 30px;
+	line-height: 70px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+}
+.modal-content-wrapper {
+	padding: 15px;
+}
+.modal-content-wrapper p {
+	color: #666;
+	font-size: 22px;
+	letter-spacing: -1px;
+	text-align: center;
+	padding: 0 40px;
+	margin: 18px 0;
+}
+.fb {
+	font-size: 20px;
+	width: 320px;
+	height: 50px;
+	margin: 0 auto;
+	background: -webkit-linear-gradient(left, #3b579d, #3b579d 15%, #4f68a7 15%, #4f68a7 );
+}
+.fb-icon {
+	float: left;
+	width:48px; 
+	height:50px; 
+	background:url(f.png) center center no-repeat;  
+	float:left;
+}
+.fb-link {
+	display: block;
+	float: right;
+	height: 50px;
+	padding-top: 10px;
+	padding-right: 16px;
+	color: #fff;
+	text-decoration: none;
+}
+.fb-link:hover {
+	text-decoration:none;
+	color: #fff;
+}
+.close {
+	margin-right: 15px;
+	margin-top: 10px;
+}
