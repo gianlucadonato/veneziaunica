@@ -19,8 +19,6 @@
 //= require_tree .
 
 "use strict";
-
-
 $( document ).ready(function() {
   
 	var nowTemp = new Date();
@@ -49,8 +47,7 @@ $( document ).ready(function() {
 	}).data('datepicker');
 
 	$('#sc00 .tabs li').click(function() {
-		$('#sc00 .tabs li').removeClass('active');
-		$(this).addClass('active');
+		$(this).toggleClass('active');
 	});
 });
 

@@ -2,7 +2,7 @@ VeneziaUnica::Application.routes.draw do
 
   root 'homepage#index'
   devise_for :users, :controllers => { :omniauth_callbacks => "omniauth_callbacks" }
-
+  get 'search' => 'homepage#search'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

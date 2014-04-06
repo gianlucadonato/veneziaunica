@@ -1,0 +1,133 @@
+.page-container {
+	margin-top: 50px;
+	width: 100%;
+	height: 100%;
+}
+.aside {
+	background: #d3d3d3;
+	height: 100%;
+	padding-bottom: 50px;
+}
+.aside-item {
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+}
+.search-container {
+	padding-top: 20px;
+}
+.search-item {
+	float: left;
+	width: 200px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	background: #eee;
+}
+.search-item-content span {
+	display: block;
+	font-size: 11px;
+	color: #666;
+	padding: 10px;
+}
+.search-item-content span:first-child {
+	padding-right: 0;
+	padding-left: 3px;
+}
+.search-item-content p {
+	font-size: 11px;
+	color: #666;
+	padding: 10px;
+	padding-left: 12px;
+	line-height: 15px;
+	clear: both;	
+}
+.search-item-content p.price {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+.search-item-content a.add-cart {
+	width: 100%;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	background: #da182a;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 24px;
+	display: inline-block;
+	text-align: center;
+}
+
+.cart {
+	position:fixed;
+	bottom: 44px;
+	background: #da182a;
+	/*opacity:0.97;
+	filter:alpha(opacity=97); /* For IE8 and earlier */ 
+	clear: both;
+	width: 100%;
+	height: 80px;
+}
+.cart-item {
+	float:left;
+	padding: 10px;
+	width: 150px;
+	height: 100%;
+	text-align: center;
+	color: #fff;
+	border-right: 1px solid #fff;
+}
+.cart-item span {
+	font-size: 30px;
+	display: block;
+	font-weight: bold;
+}
+.cart-item p.time {
+	margin: 0 !important;
+	text-align: left;
+}
+.cart-item span.time {
+	text-align: left;
+	font-size: 18px;
+	display: block;
+	font-weight: bold;
+}
+.cart-action {
+	float: right;
+	width: 220px;
+	height: 160px;
+	margin-top: -80px;
+}
+.cart-action a.buy {
+	line-height: 80px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background: #2c9659;
+	display: inline-block;
+	width: 100%;
+}
+
+.cart-action a.total {
+	position: relative;
+	line-height: 80px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background: #000;
+	display: inline-block;
+	width: 100%;
+	font-size: 48px;	
+}
+.cart-action a.total:before { 
+	content: " ";
+	background: #000;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	bottom: -16px;
+	left: 50%;
+	border-radius: 50%;
+	z-index: 44;
+	margin-left: -16px;
+}
