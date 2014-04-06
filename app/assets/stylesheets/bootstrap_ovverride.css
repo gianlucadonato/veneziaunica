@@ -5,3 +5,7 @@ ul {
 	padding: 0 !important;
 	margin-bottom: 0 !important;
 }
+.carousel-caption {
+	padding: 0 !important;
+	text-align: left !important;
+}

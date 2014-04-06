@@ -34,42 +34,38 @@
             <li><a href="#null">Wi-Fi</a></li>
         </ul>
         <div class="fields clearfix">
-            <input type="date" placeholder="Arrivo dal">
-            <input type="date" placeholder="Partenza il">
-            <input type="text" placeholder="Aggiungi interesse">
-            <input type="submit" value="Cerca">
+            <input type="text" id="dp1" class="span2" value="Partenza il 02/16/12" data-date-format="mm/dd/yy">
+            <input type="text" id="dp2" class="span2" value="Arrivo dal 02/16/12" data-date-format="mm/dd/yy">
+            <input type="text" class="keywords" placeholder="Keywords (es.Caravaggio)">
+            <input type="submit" value="Cerca" class="btn">
         </div>
     </form>
     
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-01" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-02" data-slide-to="1"></li>
-        <li data-target="#carousel-03" data-slide-to="2"></li>
-      </ol>
+      
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
           <%= image_tag("01.jpg") %>
           <div class="carousel-caption">
-            <h3>Sticazzi</h3>
-            <p>Sticazzi</p>
+            <h4>21 Maggio 2014</h4>
+            <p>Carlo Saraceni, un Veneziano tra Roma e l'Europa in mostra a Palazzo Venezia</p>
           </div>
         </div>
         <div class="item">
-          <%= image_tag("01.jpg") %>
+          <%= image_tag("02.jpg") %>
           <div class="carousel-caption">
-            <h3>Yo</h3>
-            <p>Sticazzi</p>
+            <h4>Chiuso il martedì e il 25 dicembre</h4>
+            <p>La Collezione Peggy Guggenheim è uno dei più importanti musei in Italia per l'arte europea ed americana del XX secolo con sede a Venezia presso Palazzo Venier</p>
           </div>
         </div>
         <div class="item">
-          <%= image_tag("01.jpg") %>
+          <%= image_tag("03.jpg") %>
           <div class="carousel-caption">
-            <h3>yeah</h3>
-            <p>Sticazzi</p>
+            <h4>25 Maggio 2014</h4>
+            <p>La Collezione Peggy Guggenheim è uno dei più importanti musei in Italia per l'arte europea ed americana del XX secolo con sede a Venezia presso Palazzo Venier</p>
           </div>
         </div>
       </div>

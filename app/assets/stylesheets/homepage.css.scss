@@ -14,6 +14,12 @@
 	top:0; 
 	left:0; 
 }
+.profile { width:45px; height:50px; display:inline-block; background:#da182a ;  }
+.profile.nolog {background:#da182a url(sprite.png) 0 -45px no-repeat; }
+.profile.nolog a:hover {
+	height: 50px;
+	background: #e74c3c url(sprite.png) 0 -45px no-repeat !important ;
+}
 
 #info { position:absolute; z-index:100; top:115px; left:0; width:100px; overflow: hidden;}
 #info ul { list-style:none; padding: 0 !important; }
@@ -37,4 +43,36 @@
 #sc00 .tabs li:nth-child(4) a { background-position: -375px 0; }
 #sc00 .tabs li:nth-child(5) a { background-position: -500px 0; }
 
-#sc00 .fields { background:rgba(0,0,0,.75); padding:45px 22px; margin-top:1px; width: 100%; }
+#sc00 .fields { 
+	background:rgba(0,0,0,.75); 
+	padding:45px 22px; 
+	margin-top:1px; 
+	width: 100%; 
+}
+input.keywords {
+	width: 175px !important;
+}
+#sc00 .fields input[type=text], #sc00 .fields input[type=date] {  
+	appearance:none;  
+	-webkit-appearance:none; 
+	-moz-appearance: none; 
+	width: 130px; 
+	height:45px; 
+	outline:none; 
+	color:#666 !important; 
+	padding:0 10px; 
+	border:solid 1px #e3e3e3; 
+	font-size:12px;
+	float:left; 
+	margin-right:15px;
+}
+
+#sc00 .fields input[type=submit] { 
+	background:#da182a;
+	height:45px; 
+	color:#fff; 
+	font-size:18px; 
+	text-transform:uppercase; 
+	width:100px;  
+	float:left;
+}
