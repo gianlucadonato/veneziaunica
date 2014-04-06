@@ -12,3 +12,31 @@
  *= require bootstrap.min
  *= require_tree .
  */
+html, body {
+	width: 100%;
+	overflow: hidden;
+}
+.vu-navbar {
+	background: rgba(255,255,255,0.8);
+	margin-bottom: 0 !important;
+}
+#logo {
+	background-color: #da182a;
+}
+#logo img {
+	margin-top: -5px;
+}
+
+/*========== FOOTER =============*/
+.footer {
+	position: absolute;
+	bottom: 0;
+	background:rgba(0,0,0,.8);  
+	width:100%;
+}
+.footer p { 
+	color:#fff; 
+	line-height:30px; 
+	padding-left:20px; 
+	font-size:10px;
+}

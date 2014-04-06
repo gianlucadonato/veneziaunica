@@ -1,3 +1,40 @@
 // Place all the styles related to the homepage controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#player {
+	width: 100% !important;
+	height: 100% !important;
+}
+#overlay { 
+	background:rgba(0,0,0,.45);
+	width:100%; 
+	height:100%; 
+	position:absolute; 
+	z-index:2; 
+	top:0; 
+	left:0; 
+}
+
+#info { position:absolute; z-index:100; top:115px; left:0; width:100px; overflow: hidden;}
+#info ul { list-style:none; padding: 0 !important; }
+#info li { color:#fff; font-size:12px; text-align:center; border-top:solid 1px #fff; padding:22px 0;}
+#info li:first-of-type { border:none;} 
+#info li span { font-size:36px; display:block; color:#fff; }
+
+#sc00 { position:absolute; z-index:12; top:45px; left:240px; padding-top:70px; width: 625px;}
+#sc00 h1, h2 { color:#fff; text-shadow: 0px 0px 10px rgba(0,0, 0, 1);}
+#sc00 h1 { font-size:36px;}
+#sc00 h2 { font-size:18px;}
+
+#sc00 .tabs { margin-top:25px;}
+#sc00 .tabs li { list-style:none; float:left; margin-left:1px; margin-bottom:1px; background:rgba(255,255,255,.75);  -webkit-transition: all 2s ease-out;  -moz-transition: all 2s ease-out; -o-transition: all 2s ease-out; ms-transition: all 2s ease-out; transition: all 2s ease-out;}
+#sc00 .tabs li.sel { background:rgba(0,0,0,.75); }
+#sc00 .tabs li.sel a { color:#fff;}
+#sc00 .tabs li:fisrt-of-type { margin-left:0;}
+#sc00 .tabs a { text-decoration:none; line-height:60px; color:#333; text-align:center; display:inline-block; font-size:14px; width:124px; font-weight:bold; letter-spacing:-1px; word-spacing:-1px; background:url(ico-cat.png) 0 0 no-repeat;  -webkit-transition: all 2s ease-out;  -moz-transition: all 2s ease-out; -o-transition: all 2s ease-out; ms-transition: all 2s ease-out; transition: all 2s ease-out;}
+#sc00 .tabs li:nth-child(2) a { background-position: -125px 0; }
+#sc00 .tabs li:nth-child(3) a { background-position: -250px 0; }
+#sc00 .tabs li:nth-child(4) a { background-position: -375px 0; }
+#sc00 .tabs li:nth-child(5) a { background-position: -500px 0; }
+
+#sc00 .fields { background:rgba(0,0,0,.75); padding:45px 22px; margin-top:1px; width: 100%; }

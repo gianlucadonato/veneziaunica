@@ -1,5 +1,69 @@
-<h1>Venezia Unica </h1>
-<p>Landing Page</p>
+<div id="overlay"></div>
+<video width="100%" height="100%" id="player" preload="auto" autoplay muted loop >
+    <source type="video/mp4" src="/assets/venezia.mp4" ></source>
+    <source type="video/ogg" src="/assets/venezia.ogg" ></source>
+    <source type="video/webm" src="/assets/venezia.webm" ></source>
+</video> 
 
+<section id="info">
+    <ul>
+        <li>
+            <span>350</span>
+            milioni di utenti
+        </li>
+        <li>
+            <span>280</span>
+            hotels
+        </li>
+        <li>
+            <span>127</span>
+            ristoranti
+        </li>
+    </ul>
+</section> 
 
-<%= link_to "Esci", destroy_user_session_path, method: :delete %>
+<section id="sc00">
+    <h1>Venezia unica. Come te.</h1>
+    <h2>Scopri come  vivere la tua esperienza perfetta a Venezia</h2>
+    <form>
+        <ul class="tabs clearfix">
+            <li><a href="#null">Musei e chiese</a></li>
+            <li><a href="#null">Trasporto pubblico</a></li>
+            <li><a href="#null">Transfer Marco Polo</a></li>
+            <li><a href="#null">Servizi</a></li>
+            <li><a href="#null">Wi-Fi</a></li>
+        </ul>
+        <div class="fields clearfix">
+            <input type="date" placeholder="Arrivo dal">
+            <input type="date" placeholder="Partenza il">
+            <input type="text" placeholder="Aggiungi interesse">
+            <input type="submit" value="Cerca">
+        </div>
+    </form>
+    
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators 
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-01" data-slide-to="0" class="active"></li>
+      </ol>
+        -->
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <%= image_tag("01.jpg") %>
+          <div class="carousel-caption">
+            <h3>Sticazzi</h3>
+            <p>Sticazzi</p>
+          </div>
+        </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+
+</section>       

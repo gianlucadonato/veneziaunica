@@ -1,5 +1,5 @@
 development:
-  adapter: mysql2
+  adapter: postgresql
   database: venezia_unica_dev
   username: root
   password: root
@@ -7,7 +7,7 @@ development:
   encoding: utf8
 
 test:
-  adapter: mysql2
+  adapter: postgresql
   database: venezia_unica_test
   username: root
   password: root
