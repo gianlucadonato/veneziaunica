@@ -42,7 +42,28 @@
 #sc00 .tabs li:nth-child(3) a { background-position: -250px 0; }
 #sc00 .tabs li:nth-child(4) a { background-position: -375px 0; }
 #sc00 .tabs li:nth-child(5) a { background-position: -500px 0; }
+#sc00 .tabs li.active { background: rgba(0,0,0,.75); }
 
+#sc00 .item span { 
+	background:rgba(0,0,0,.57); 
+	color:#fff; 
+	text-transform:uppercase; 
+	font-size:14px; 
+	line-height:34px; 
+	z-index:4; 
+	right:0; 
+	top:10px; 
+	position:absolute; 
+	text-decoration:none; 
+	padding:0 15px; 
+	display:inline-block;  
+}
+.caption {
+	position: absolute;
+	top: 40px;
+	left: 20px;
+	color: #fff;
+}
 #sc00 .fields { 
 	background:rgba(0,0,0,.75); 
 	padding:45px 22px; 
@@ -75,4 +96,9 @@ input.keywords {
 	text-transform:uppercase; 
 	width:100px;  
 	float:left;
+}
+.cerca {
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
 }

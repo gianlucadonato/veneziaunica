@@ -48,4 +48,10 @@ $( document ).ready(function() {
 	  checkout.hide();
 	}).data('datepicker');
 
+	$('#sc00 .tabs li').click(function() {
+		$('#sc00 .tabs li').removeClass('active');
+		$(this).addClass('active');
+	});
 });
+
+
